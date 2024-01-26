@@ -11,8 +11,8 @@ function App() {
     return <Router>
         <NavBar />
         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/projects-gallery" element={<ProjectsGallery />} />
+            <Route path="" element={<Home />} />
+            <Route path="projects-gallery" element={<ProjectsGallery />} />
         </Routes>
     </Router>;
 }
