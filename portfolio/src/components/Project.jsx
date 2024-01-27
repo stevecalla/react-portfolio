@@ -7,6 +7,7 @@ function Project({title, description}) {
         <h2>{title}</h2>
         <p>{description}</p>
         <img src="../assets/catimage.jpeg" alt="Very pretty brown black cat laying down looking directly ahead" />
+        <img src="./assets/catimage.jpeg" alt="Very pretty brown black cat laying down looking directly ahead" />
         <img src={catImage} alt="" />
     </div>
 }
