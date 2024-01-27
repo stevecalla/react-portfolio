@@ -13,11 +13,13 @@ function Project({title, description}) {
         {/* SECTION WILL WORK IN DEV BUT NOT GITHUB DEPLOY */}
         <img src={catImageImport} alt="" />
 
+        {/*SECTION WILL WORK IN DEV AND GITHUB DEPLOY */}
+        <img src="./public/assets/catImagePublicFolder.jpeg" alt="Very pretty brown black cat laying down looking directly ahead" />
+
         {/* FIX //SECTION WILL WORK IN DEV AND GITHUB DEPLOY */}
         <img src="./assets/catImagePublicFolder.jpeg" alt="Very pretty brown black cat laying down looking directly ahead" />
 
-        {/* FIX //SECTION WILL WORK IN DEV AND GITHUB DEPLOY */}
-        <img src="./public/assets/catImagePublicFolder.jpeg" alt="Very pretty brown black cat laying down looking directly ahead" />
+ 
     </div>
 }
 
